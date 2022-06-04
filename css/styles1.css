@@ -181,8 +181,7 @@ p {
   }
 
   .bottom-cloud {
-    top: 500px;
-    left: 10px;
+    opacity: 0;
   }
 
   .footer-link {
