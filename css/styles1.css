@@ -1,0 +1,212 @@
+body {
+
+  text-align: center;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+
+  color: #40514E;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Mea Culpa', cursive;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+
+}
+
+h3 {
+  font-family: 'Love Light', cursive;
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 10%;
+  border-width: 7px;
+  border-color: #EAF6F6;
+}
+
+span {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.75rem;
+}
+
+.first-container {
+  background-color: #b0e0e6;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 460px;
+  top: 90px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 350px;
+}
+
+/* .mountain {
+  position: relative;
+  top: 7px;
+} */
+
+.skill-row {
+  margin: 150px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.programing {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.programing-h {
+  padding-top: 30px;
+
+}
+
+.programing-p {
+  margin: 0;
+}
+
+.Design {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+
+.Design-h {
+  margin-left: 150px;
+}
+
+.Design-p {
+  margin: 0 0 0 150px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 1px 1px 0 #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #b0e0e6;
+  margin-top: 30px;
+  line-height: 2;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.bottom-container p {
+  color: #EAF6F6;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+
+.bottom-container a {
+  color: #11999E;
+  padding: 0 30px 0 0;
+  font-size: 30px;
+}
+
+
+
+
+/* Phone Style */
+
+@media (max-width: 575.98px) {
+
+  h1 {
+    font-family: 'Sacramento', cursive;
+  }
+
+  h3 {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  h2 {
+    font-family: 'Merriweather', serif;
+  }
+
+  .top-cloud {
+    right: 10px;
+  }
+
+  .mountain {
+    top: 6px;
+    width: 70%;
+  }
+
+  .bottom-cloud {
+    top: 400px;
+    right: 10px;
+  }
+
+  .footer-link {
+    margin: 0;
+    padding: 0 2px;
+    width: 50%;
+  }
+
+  .programing {
+    margin: 0;
+    width: 50%;
+    float: none;
+  }
+
+  .Design {
+    margin: 0;
+    width: 50%;
+    float: none;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .skill-row p, h3 {
+    text-align: left;
+  }
+
+}
