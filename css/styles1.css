@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Merriweather', serif;
   color: #40514E;
+  background-color: #f0f8ff;
 }
 
 h1 {
@@ -74,7 +75,7 @@ p {
 .programing {
   width: 25%;
   float: left;
-  margin-right: 30px;
+  margin: 0 30px 100px 0;
 }
 
 .programing-h {
@@ -149,7 +150,9 @@ p {
   font-size: 30px;
 }
 
-
+.contact-me {
+  padding: 20px 0 0 0;
+}
 
 
 /* Phone Style */
