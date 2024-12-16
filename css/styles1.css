@@ -196,6 +196,10 @@ p {
     width: fit-content;
   }
 
+  .skill-row {
+    width: fit-content;
+  }
+
   .programing {
     width: 25%;
     float: left;
@@ -208,7 +212,7 @@ p {
     width: 25%;
     float: right;
     margin-left: 20px;
-    /* display: inline; */
+    display: inline;
     /* align-items: right;
     text-align: right; */
   }
