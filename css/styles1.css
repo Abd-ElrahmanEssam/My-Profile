@@ -161,7 +161,7 @@ p {
 
   h1 {
     font-family: 'Merriweather', serif;
-    font-size: 40px;
+    font-size: 35px;
   }
 
   h3 {
@@ -190,6 +190,10 @@ p {
     margin: 0;
     padding: 0 2px;
     width: 50%;
+  }
+
+  .skills {
+    width: 100%;
   }
 
   .programing {
