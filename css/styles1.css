@@ -200,11 +200,13 @@ p {
     margin: 0;
     width: 35%;
     float: none;
+    display: inline;
     align-items: left;
   }
 
   .Design {
     margin: 0;
+    display: inline;
     width: 35%;
     float: none;
     align-items: right;
