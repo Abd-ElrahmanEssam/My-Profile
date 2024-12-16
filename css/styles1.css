@@ -198,16 +198,17 @@ p {
 
   .programing {
     margin: 0;
-    width: 25%;
+    width: 35%;
     float: none;
     align-items: left;
   }
 
   .Design {
     margin: 0;
-    width: 25%;
+    width: 35%;
     float: none;
     align-items: right;
+    text-align: right;
   }
 
   p {
