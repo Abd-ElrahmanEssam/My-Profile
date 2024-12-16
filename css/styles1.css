@@ -197,18 +197,18 @@ p {
   }
 
   .programing {
-    margin: 0;
-    width: 50%;
+    width: 25%;
     float: left;
+    margin: 0 30px 110px 0;
     /* display: inline;
     align-items: left; */
   }
 
   .Design {
-    margin: 0;
-    display: inline;
-    width: 50%;
+    width: 25%;
     float: right;
+    margin-left: 20px;
+    display: inline;
     /* align-items: right;
     text-align: right; */
   }
@@ -221,21 +221,25 @@ p {
   .programing-h {
     text-align: right;
     display: inline;
+    padding-top: 30px;
   }
   
   .programing-p {
     text-align: right;
     display: inline;
+    margin: 0;
   }
 
   .Design-h {
     text-align: left;
     display: inline;
+    margin-left: 150px;
   }
 
   .Design-p {
     text-align: left;
     display: inline;
+    margin: 0 0 0 150px;
   }
 
   a {
