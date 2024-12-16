@@ -198,7 +198,7 @@ p {
 
   .programing {
     margin: 0;
-    width: 35%;
+    width: 50%;
     float: left;
     /* display: inline;
     align-items: left; */
@@ -207,7 +207,7 @@ p {
   .Design {
     margin: 0;
     display: inline;
-    width: 35%;
+    width: 50%;
     float: right;
     /* align-items: right;
     text-align: right; */
@@ -220,18 +220,22 @@ p {
 
   .programing-h {
     text-align: right;
+    display: inline;
   }
   
   .programing-p {
     text-align: right;
+    display: inline;
   }
 
   .Design-h {
     text-align: left;
+    display: inline;
   }
 
   .Design-p {
     text-align: left;
+    display: inline;
   }
 
   a {
