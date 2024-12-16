@@ -161,7 +161,7 @@ p {
 
   h1 {
     font-family: 'Merriweather', serif;
-    font-size: 30px;
+    font-size: 40px;
   }
 
   h3 {
@@ -170,6 +170,7 @@ p {
 
   h2 {
     font-family: 'Merriweather', serif;
+    font-size: 30px;
   }
 
   .top-cloud {
@@ -178,7 +179,7 @@ p {
 
   .mountain {
     top: 6px;
-    width: 70%;
+    width: 80%;
   }
 
   .bottom-cloud {
@@ -195,14 +196,14 @@ p {
     margin: 0;
     width: 50%;
     float: none;
-    text-align: center;
+    text-align: left;
   }
 
   .Design {
     margin: 0;
     width: 50%;
     float: none;
-    text-align: center;
+    text-align: right;
   }
 
   p {
@@ -210,12 +211,24 @@ p {
     font-size: 1.5rem;
   }
 
-  .skill-row h3 {
+  .programing-h {
+    text-align: right;
+  }
+  
+  .programing-p {
+    text-align: right;
+  }
+
+  .Design-h {
     text-align: left;
   }
 
-  .skill-row p {
+  .Design-p {
     text-align: left;
+  }
+
+  a {
+    margin: 0px 3px 5px 3px;
   }
 
 }
